@@ -1,64 +1,64 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, Legend} from 'recharts';
 
 const data = [
   {
     name: 'JAN',
-    saldo: 198,
+    Saldo: 198,
     amt: 0,
   },
   {
     name: 'FEV',
-    saldo: 477,
+    Saldo: 477,
     amt: 0,
   },
   {
     name: 'MAR',
-    saldo: 322,
+    Saldo: 322,
     amt: 0,
   },
   {
     name: 'MAI',
-    saldo: 419,
+    Saldo: 419,
     amt: 0,
   },
   {
     name: 'JUN',
-    saldo: 632,
+    Saldo: 632,
     amt: 2181,
   },
   {
     name: 'JUL',
-    saldo: 246,
+    Saldo: 246,
     amt: 2500,
   },
   {
     name: 'AGO',
-    saldo: 300,
+    Saldo: 300,
     amt: 2100,
   },
   {
     name: 'SET',
-    saldo: 430,
+    Saldo: 430,
     amt: 2100,
   },
   {
     name: 'OUT',
-    saldo: 210,
+    Saldo: 210,
     amt: 2100,
   },
   {
     name: 'NOV',
-    saldo: 115,
+    Saldo: 115,
     amt: 2100,
   },
   {
     name: 'DEZ',
-    saldo: 22,
+    Saldo: 22,
     amt: 2100,
   },
 ];
 
-export default function LineChartMes({tittle}) {
+export default function SaldoMes({tittle}) {
     return (
         <div>
             <h2>{tittle}</h2>
@@ -81,8 +81,8 @@ export default function LineChartMes({tittle}) {
           <Tooltip />
           <Legend />
           <Line type="monotone" 
-                dataKey="saldo" 
-                stroke="#8884d8" 
+                dataKey="Saldo"
+                stroke="#FFBF00" 
                 activeDot={{ r: 8 }} />
         </LineChart>
           

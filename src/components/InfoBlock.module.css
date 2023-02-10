@@ -1,0 +1,27 @@
+
+.bloco{
+    width: 230px;
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.titulo{
+    font-weight: 200;
+    font-size: 14px;
+ }
+
+.valor{
+    font-weight: 300;
+}
+
+.info{
+    margin-top: -13px;
+    color: red;
+}
+
+.tip{
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: -13px;
+}

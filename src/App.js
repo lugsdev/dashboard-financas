@@ -1,17 +1,18 @@
 
-import BarChartReceitas from './ReceitasDespesas';
-import LineChartMes from './SaldoMes';
+import Dashboard from "./components/Dashboard";
+import styles from "./App.css"
 
 
 
 function App() {
   return (
-    <div>
-      <BarChartReceitas tittle={"Despesas e Receitas"}/>
-      <LineChartMes tittle={"Saldo no final do mês"}/>
-     
-      </div>
+    
+    <div className={styles.App}>
+      <Dashboard />
+    </div>
+
   );
+   
 }
 
 export default App;

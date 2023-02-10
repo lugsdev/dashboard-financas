@@ -1,9 +1,7 @@
 import {
-  BarChart,
   Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend,
   ReferenceLine,
@@ -103,7 +101,7 @@ export default function BarChartReceitas({ tittle }) {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="Receita" stackId="a" fill="#82ca9d" />
+        <Bar dataKey="Receita" stackId="a" fill="#55A38B" />
         <Bar dataKey="Despesa" stackId="b" fill="#FF4500" />
         <Line type="monotone" dataKey="Lucro" stroke="#000" />
       </ComposedChart>
