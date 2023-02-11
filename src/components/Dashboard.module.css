@@ -1,4 +1,6 @@
-body{
-    display: flex;
+.DashSuperior{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 }
+
