@@ -1,9 +1,12 @@
 
 .bloco{
     width: 230px;
+    height: 130px;
     padding: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     text-align: center;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .titulo{

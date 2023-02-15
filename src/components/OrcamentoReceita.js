@@ -49,7 +49,7 @@ const renderActiveShape = (props) => {
   );
 };
 
-export default function OrcamentoReceita({tittle, cor}) {
+export default function OrcamentoReceita({tittle, cor, descricao1, descricao2}) {
   const [activeIndex, setActiveIndex] = useState(0);
   const onPieEnter = useCallback(
     (_, index) => {
@@ -77,8 +77,8 @@ export default function OrcamentoReceita({tittle, cor}) {
       
     </PieChart>
         <div>
-            <p>Orçamento: 60.000,00</p>
-            <p>Balanço: -55.820,00</p>
+            <p>{descricao1}</p>
+            <p>{descricao2}</p>
         </div>
     </div>
   );
