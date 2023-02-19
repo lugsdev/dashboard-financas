@@ -1,6 +1,6 @@
 
 .bloco{
-    width: 230px;
+    width: 200px;
     height: 130px;
     padding: 2px;
     background-color: white;
@@ -12,7 +12,16 @@
 .titulo{
     font-weight: 200;
     font-size: 14px;
+    color: rgb(24, 24, 24);
  }
+
+.titulo h3::after{
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 4px;
+    background-color:  rgb(255, 0, 0);
+}
 
 .valor{
     font-weight: 300;
@@ -27,4 +36,5 @@
     font-size: 13px;
     font-weight: 100;
     margin-top: -13px;
+    color: rgb(149, 149, 149);
 }

@@ -1,0 +1,27 @@
+.PieChartCustom{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+    width: 200px;
+    height: 280px
+}
+
+.PieChartCustom h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.PieChartCustom p{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.PieChartCustom text{
+    font-size: 24px;
+}
