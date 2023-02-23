@@ -10,20 +10,23 @@
 }
 
 .titulo{
+    margin-top: 5px;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 13.3px;
     color: rgb(24, 24, 24);
  }
 
-.titulo h3::after{
+h3::after{
     content: "";
-    display: inline-block;
+    display: block;
     width: 200px;
-    height: 4px;
-    background-color:  rgb(255, 0, 0);
+    height: 2px;
+    margin-top: 5px;
+    background-color: rgb(241, 241, 241);
 }
 
 .valor{
+    margin-top: 0;
     font-weight: 300;
 }
 
@@ -33,8 +36,8 @@
 }
 
 .tip{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 100;
-    margin-top: -13px;
+    margin-top: -5px;
     color: rgb(149, 149, 149);
 }

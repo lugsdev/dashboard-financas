@@ -1,5 +1,5 @@
-
-import Dashboard from "./components/Dashboard";
+import DashboardInferior from "./components/DashboardInferior/DashboardInferior";
+import Dashboard from "./components/DashboardSuperior/Dashboard";
 import styles from "./App.css"
 
 
@@ -9,6 +9,7 @@ function App() {
     
     <div className={styles.App}>
       <Dashboard />
+      <DashboardInferior />
     </div>
 
   );

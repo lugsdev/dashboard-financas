@@ -3,23 +3,25 @@
     padding: 5px;
     border-radius: 5px;
     margin-top: 7px;
+    margin: 2px;
     width: 200px;
     height: 280px
 }
 
 .PieChartCustom h2{
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
 }
 
-
-
 .PieChartCustom p{
+    font-size: 15px;
+    font-weight: 300;
     margin-left: 5px;
-    margin-bottom: 0;
+    margin-bottom: -10px;
+    padding: 5px;
 }
 
 .PieChartCustom text{

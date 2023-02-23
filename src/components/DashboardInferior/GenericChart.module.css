@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.GenericChart{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    width: 673px;
+    height: 400px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.GenericChart h2{
+    font-size: 18px;
+    font-weight: 300;
+}
