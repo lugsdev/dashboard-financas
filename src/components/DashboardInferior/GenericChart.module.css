@@ -1,4 +1,4 @@
-body{
+.DashboardInferior{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,8 +8,8 @@ body{
     background-color: white;
     padding: 5px;
     margin: 5px;
-    width: 673px;
-    height: 400px;
+    width: 630px;
+    height: 350px;
     border-radius: 5px;
     align-items: center;
     text-align: center;
@@ -19,4 +19,14 @@ body{
 .GenericChart h2{
     font-size: 18px;
     font-weight: 300;
+}
+
+.PieChartCustom{
+    margin-top: 2px;
+    height: 00px;
+}
+
+.InfoGrid{
+    background-color: white;
+
 }

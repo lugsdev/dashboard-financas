@@ -1,6 +1,6 @@
 import PieChartCustom from "../PieChartCustom";
 import InfoBlock from "./InfoBlock";
-import styles from "./Dashboard.module.css"
+import styles from "./Dashboard.module.css";
 import Grid from '@mui/material/Grid'; 
 
 
@@ -29,9 +29,9 @@ function Dashboard(){
                     <InfoBlock tittle={"Saldo no final do mês"} valor={"5.712,00"} info={"-4,8%"} tip={"vs mês anterior"}/>
                 </Grid>
                 
-                <div className={styles.SupMeio}>
-                    <PieChartCustom tittle={"% Margem Lucro Líquido"} cor={"#FF4500"} descricao1={"Objetivo: 12,0%"} largura={190} altura={170} data={dataLucro}/>
-                </div>
+                <Grid item className={styles.SupMeio}>
+                    <PieChartCustom tittle={"% Margem Lucro Líquido"} cor={"#FF4500"} descricao2={"Objetivo: 12,0%"} largura={190} altura={170} data={dataLucro}/>
+                </Grid>
 
                <Grid item> 
                     <InfoBlock tittle={"Contas a receber"} valor={"745,00"} info={"45,2%"} tip={"vs mês anterior"}/>

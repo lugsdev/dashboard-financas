@@ -3,6 +3,7 @@ import BarChartReceitas from "./ReceitasDespesas";
 import SaldoMes from "./SaldoMes";
 import PieChartCustom from "../PieChartCustom";
 import styles from "./GenericChart.module.css"
+import InfoGrid from './InfoGrid.js';
 
 const dataReceita = [
     { name: "Orçamento de Receita%", value: 6000, percent: 92},
@@ -18,23 +19,30 @@ function DashboardInferior(){
     return(
     <div>
 
-        <Grid container spacing={0} >
-            <Grid Item>
-                <div className={styles.GenericChart}>
-                 <BarChartReceitas tittle={"Receitas e Despesas"}/>
-                </div>
-                
-                <div className={styles.GenericChart}>
-                 <SaldoMes tittle={"Saldo no final do mês"}/>    
+        <Grid container spacing={0} className={styles.DashboardInferior}>
+
+            <Grid Item className={styles.GenericChart}>
+                <BarChartReceitas tittle={"Receitas e Despesas"}/>
+            </Grid>
+
+            <Grid item className={styles.PieChartCustom}>
+                <div className={styles.inferior}>
+                <PieChartCustom tittle={"% do orçamento de receita"} cor={"#55A38B"} descricao1={"Orçamento: 60.000,00"} descricao2={"Balanço: -55.810,00"} largura={200} altura={190} data={dataReceita}/>
                 </div>
             </Grid>
-        </Grid>
 
-        <Grid container spacing={0}>
-            <Grid item>
-                <PieChartCustom tittle={"% do orçamento de receita"} cor={"#55A38B"} descricao1={"Orçamento: 60.000,00"} descricao2={"Balanço: -55.810,00"} largura={200} altura={190} data={dataReceita}/>
+            <Grid item className={styles.PieChartCustom}>
                 <PieChartCustom tittle={"% do orçamento de despesa"} cor={"#FF4500"} descricao1={"Orçamento: 42.000,00"} descricao2={"Balanço: -38.622,00"} largura={200} altura={190} data={dataDespesa}/>
             </Grid>
+
+            <Grid Item className={styles.GenericChart}>    
+                <SaldoMes tittle={"Saldo no final do mês"}/>    
+            </Grid>
+
+            <Grid item className={styles.InfoGrid}>
+                <InfoGrid />
+            </Grid>
+
         </Grid>
     
     </div>
