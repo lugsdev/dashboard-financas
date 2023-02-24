@@ -18,7 +18,7 @@ function Dashboard(){
 
              <Grid container spacing={0} >
                 
-                <Grid item>
+                <Grid item> 
                    <InfoBlock tittle={"Total Receita"} valor={"4.190,00"} info={"-15,8%"} tip={"vs mês anterior"}/>
                    <InfoBlock tittle={"Total Despesas"} valor={"3.378,00"} info={"-6,7%"} tip={"vs mês anterior"}/>
                    

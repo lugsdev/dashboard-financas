@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
+import styles from "./InfoGrid.module.css"
 
 const columns = [
   { field: 'id',
@@ -11,14 +12,14 @@ const columns = [
   {
     field: 'valor',
     headerName: "Valor",
-    width: 100,
+    width: 120,
     editable: true,
     sortable: false,
   },
   {
     field: 'porcentagem',
     headerName: "%",
-    width: 60,
+    width: 70,
     editable: false,
   }
 ];
@@ -35,19 +36,22 @@ const rows = [
 
 function InfoGrid() {
   return (
-    <Box sx={{ height: 300, width: 450 }}>
-      <DataGrid
-        rows={rows}
-        columns={columns}
-        pageSize={7}
-        rowHeight={27}
-        // rowsPerPageOptions={[5]}
-        // checkboxSelection
-        disableSelectionOnClick
-        
-      />
-    </Box>
-  );
+
+    
+      <div className={styles.InfoGrid}>
+        <h2>Demonstração de resultados</h2>
+      
+      <Box sx={{ height: 290, width: 450 }}>
+        <DataGrid
+          rows={rows}
+          columns={columns}
+          pageSize={7}
+          rowHeight={27}
+          disableSelectionOnClick
+        />
+      </Box>
+      </div>
+    );
 }
 
 export default InfoGrid

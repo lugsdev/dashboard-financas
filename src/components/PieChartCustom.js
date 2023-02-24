@@ -41,6 +41,7 @@ const renderInactiveShape = function (props){
     startAngle,
     endAngle,
   } = props;
+  
   return (
       <g>
         <Sector

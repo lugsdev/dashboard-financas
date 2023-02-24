@@ -66,7 +66,7 @@ export default function SaldoMes({tittle}) {
      
         <LineChart
           width={600}
-          height={300}
+          height={200}
           data={data}
           margin={{
             top: 0,

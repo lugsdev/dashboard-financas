@@ -2,17 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2px;
 }
 
 .GenericChart{
     background-color: white;
-    padding: 5px;
+    padding-bottom: 8px;
     margin: 5px;
     width: 630px;
-    height: 350px;
+    height: 275px;
     border-radius: 5px;
-    align-items: center;
     text-align: center;
+    font-size: 11px;
     
 }
 
@@ -23,10 +24,5 @@
 
 .PieChartCustom{
     margin-top: 2px;
-    height: 00px;
-}
-
-.InfoGrid{
-    background-color: white;
-
-}
+    margin-left: 2px;
+}    

@@ -86,7 +86,7 @@ export default function BarChartReceitas({ tittle }) {
       <h2>{tittle}</h2>
       <ComposedChart
         width={600}
-        height={300}
+        height={200}
         data={data}
         margin={{
           top: 0,

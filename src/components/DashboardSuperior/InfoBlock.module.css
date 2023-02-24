@@ -38,6 +38,6 @@ h3::after{
 .tip{
     font-size: 12px;
     font-weight: 100;
-    margin-top: -5px;
+    margin-top: 0px;
     color: rgb(149, 149, 149);
 }

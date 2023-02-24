@@ -40,7 +40,7 @@ function DashboardInferior(){
             </Grid>
 
             <Grid item className={styles.InfoGrid}>
-                <InfoGrid />
+                <InfoGrid tittle={"Saldo no final do mês"}/>
             </Grid>
 
         </Grid>
