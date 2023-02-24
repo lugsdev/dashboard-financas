@@ -17,24 +17,24 @@ const dataDespesa = [
 function DashboardInferior(){
 
     return(
-    <div>
+    <div className={styles.DashboardInferior}>
 
-        <Grid container spacing={0} className={styles.DashboardInferior}>
+        <Grid container spacing={0} >
 
             <Grid Item className={styles.GenericChart}>
                 <BarChartReceitas tittle={"Receitas e Despesas"}/>
             </Grid>
 
             <Grid item className={styles.PieChartCustom}>
-                <div className={styles.inferior}>
                 <PieChartCustom tittle={"% do orçamento de receita"} cor={"#55A38B"} descricao1={"Orçamento: 60.000,00"} descricao2={"Balanço: -55.810,00"} largura={200} altura={190} data={dataReceita}/>
-                </div>
             </Grid>
 
             <Grid item className={styles.PieChartCustom}>
                 <PieChartCustom tittle={"% do orçamento de despesa"} cor={"#FF4500"} descricao1={"Orçamento: 42.000,00"} descricao2={"Balanço: -38.622,00"} largura={200} altura={190} data={dataDespesa}/>
             </Grid>
+        </Grid>
 
+        <Grid container spacing={0} >    
             <Grid Item className={styles.GenericChart}>    
                 <SaldoMes tittle={"Saldo no final do mês"}/>    
             </Grid>
