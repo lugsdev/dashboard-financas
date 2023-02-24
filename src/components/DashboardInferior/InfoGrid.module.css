@@ -1,15 +1,34 @@
 
 
 .InfoGrid{
-    padding: 2px 5px 0px 5px;
-    text-align: center;
+    padding: 5px;
     border-radius: 5px;
     background-color: white;
     margin-top: 5px;
-    width: 100%;
+    width: 410px;
+    height: 265px;
 }
 
-h2{
+.InfoGrid h2{
     font-size: 18px;
     font-weight: 300;
+    text-align: center;
+}
+
+.InfoGrid h2::after{
+    content: "";
+    display: block;
+    width: 410px;
+    height: 2px;
+    margin-top: 3px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.InfoGrid td{
+    font-size: 14px;
+    font-weight: 200;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    
 }
