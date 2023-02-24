@@ -14,14 +14,10 @@ function Dashboard(){
     return(
         <div className={styles.Dashboard}>
 
-            <div className={styles.DashSuperior}>
-
-             <Grid container spacing={0} >
-                
+             <Grid container spacing={0} >                
                 <Grid item> 
                    <InfoBlock tittle={"Total Receita"} valor={"4.190,00"} info={"-15,8%"} tip={"vs mês anterior"}/>
-                   <InfoBlock tittle={"Total Despesas"} valor={"3.378,00"} info={"-6,7%"} tip={"vs mês anterior"}/>
-                   
+                   <InfoBlock tittle={"Total Despesas"} valor={"3.378,00"} info={"-6,7%"} tip={"vs mês anterior"}/>                  
                 </Grid>
 
                 <Grid item>
@@ -43,9 +39,6 @@ function Dashboard(){
                     <InfoBlock tittle={"Índice de liquidez"} valor={"3,05"} info={"3 ou mais"} tip={"Objetivo índice de liquidez"}/>
                </Grid>
             </Grid>
-            </div> 
-
-           
         
         </div>
     )
