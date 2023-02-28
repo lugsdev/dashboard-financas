@@ -1,7 +1,5 @@
 .DashboardInferior{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    place-content: center;
     gap: 2px;
 }
 

@@ -6,7 +6,5 @@
 }
 
 .Dashboard{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    place-content: center;
 }
