@@ -21,7 +21,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
-- Recharts
+- Biblioteca de gráficos: Recharts
 - Git e Github
 
 ## 💻 Projeto
