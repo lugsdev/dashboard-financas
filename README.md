@@ -1,4 +1,4 @@
-<h1 align="center">Dashboard de Finanças</h1>
+<h1 align="center">Dashboard Financeira</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
