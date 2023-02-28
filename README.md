@@ -16,4 +16,22 @@
   <img alt="calendario da copa" src="github\preview.png" width="100%">
 </p>
 
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- ReactJS
+- Recharts
+- Git e Github
+
+## 💻 Projeto
+
+A dashboard de finanças é um projeto de estudos para explorar algumas práticas de React.
+
 Confira em: https://dashboard-financas.lugs.dev/
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
