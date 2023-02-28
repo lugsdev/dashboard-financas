@@ -1,3 +1,3 @@
 # Projeto em andamento.
 
-Novidades em breve.
+Confira em: https://dashboard-financas.lugs.dev/
